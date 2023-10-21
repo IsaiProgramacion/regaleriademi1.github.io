@@ -208,3 +208,99 @@ footer address {
 	padding: 0;
 }
 
+/*media queries*/
+@media max-width:(1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+body::-webkit-scrollbar {
+	display: none;
+}
+
+#nav ul li {
+	font-size: 30px;
+}
+
+#casosImg img {
+	margin: 30px 30px;
+}
+
+}
+
+@media (max-width: 768px) {
+/*nav*/
+
+#nav ul li {
+	margin: 8px 3px;
+	font-size: 11px;
+	font-weight: ;
+}
+
+#nav ul li a:hover {
+	margin: 12px 7px;
+	font-size: 15px;
+}
+
+#textoPresentacion {
+	height: 40vh;
+}
+
+/*servicios*/
+
+#productos .col {
+	margin-bottom: 30px;
+}
+
+.texto {
+	width: 95%;
+}
+
+.texto p {
+	font-size: 10px;
+	height: 100px;
+	padding: 0px 20px;
+}
+
+#productos img {
+	width: 160px;
+	height: 160px;
+	z-index: 1;
+}
+
+/*slide*/
+
+.slide {
+	width: 90%;
+}
+.slide img {
+
+	height: 35vh;
+}
+
+.ws {
+	z-index: 3;
+}
+
+/*formas*/
+#formas {
+	width: 100%;
+	padding: 10 px 20px;
+	margin: 16px auto;
+}
+#formas i {
+	font-size: 30px;
+}
+
+#formas p {
+	padding: 0 5px;
+	font-size: 14px;
+}
+
+}
+
+@media (max-width: 576px) {	
+
+
+}
